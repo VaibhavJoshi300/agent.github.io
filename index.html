@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Search Page</title>
+  <style>
+    body {
+      background: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      text-align: center;
+      margin-top: 15%;
+    }
+    .logo {
+      font-size: 64px;
+      font-weight: bold;
+      color: #4285F4;
+      font-family: 'Arial Black', Arial, sans-serif;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+    }
+    .search-box {
+      display: inline-block;
+      width: 50%;
+      min-width: 300px;
+    }
+    input[type="text"] {
+      width: 80%;
+      padding: 15px;
+      font-size: 18px;
+      border-radius: 24px;
+      border: 1px solid #ccc;
+      outline: none;
+    }
+    .buttons {
+      margin-top: 20px;
+    }
+    button {
+      background: #f8f9fa;
+      border: 1px solid #f8f9fa;
+      padding: 10px 24px;
+      border-radius: 4px;
+      font-size: 16px;
+      margin: 0 4px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #e6e6e6;
+    }
+    .footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      color: #777;
+      font-size: 15px;
+      padding: 15px 0;
+      background: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">Search</div>
+    <form>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+      </div>
+      <div class="buttons">
+        <button type="submit">Search</button>
+        <button type="button">I'm Feeling Lucky</button>
+      </div>
+    </form>
+  </div>
+  <div class="footer">
+    © 2025 Simple Search Page. This is not affiliated with Google.
+  </div>
+</body>
+</html>
