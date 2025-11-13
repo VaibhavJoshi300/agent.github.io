@@ -10,7 +10,7 @@
       margin: 0;
       padding: 0;
     }
-    
+
     .container {
       text-align: center;
       margin-top: 15%;
@@ -80,5 +80,25 @@
   <div class="footer">
     © 2025 Simple Search Page. This is not affiliated with Google.
   </div>
+  <script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00Dg5000000Facm',
+				'Github_Service_Agent',
+				'https://orgfarm-853c2792a3-dev-ed.develop.my.site.com/ESWGithubServiceAgent1763018190751',
+				{
+					scrt2URL: 'https://orgfarm-853c2792a3-dev-ed.develop.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://orgfarm-853c2792a3-dev-ed.develop.my.site.com/ESWGithubServiceAgent1763018190751/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
 </body>
 </html>
